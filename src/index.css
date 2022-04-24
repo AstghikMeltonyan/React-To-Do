@@ -1,0 +1,89 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background: rgb(0, 61, 0);
+}
+
+.App {
+  width: 600px;
+  margin: 100px auto;
+  border-radius: .5rem;
+  padding: .5rem;
+  background: rgb(224, 252, 196);
+  color: rgb(0, 61, 0);
+  ;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: rgb(0, 61, 0);
+  padding: .5rem;
+  font-size: 1.2rem;
+}
+
+.done {
+  color: rgb(56, 206, 56);
+  border: .1rem solid rgb(0, 61, 0);
+  text-decoration: line-through;
+}
+
+.TodoItem {
+  display: flex;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  font-size: 1.2rem;
+  margin-top: .2rem;
+  color: rgb(0, 61, 0);
+}
+
+.fa-trash {
+  color: rgb(255, 0, 51);
+  margin-left: .5rem;
+}
+
+.fa-check {
+  color: rgb(56, 206, 56);
+}
+
+input[type=text] {
+  width: 70%;
+  font-size: 1.2rem;
+  padding: .5rem;
+  background: none;
+  border-bottom: .1rem solid rgb(0, 61, 0);
+  color: rgb(0, 61, 0);
+}
+
+input::placeholder {
+  color: rgba(0, 61, 0, 0.395);
+  font-size: 1rem;
+}
+
+button {
+  width: 20%;
+  font-size: 1.2rem;
+  padding: .5rem;
+  background: none;
+  color: rgb(0, 61, 0);
+  border: .1rem solid rgb(0, 61, 0);
+  border-radius: .5rem;
+  margin-left: 2.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 -.3rem 1rem rgb(0, 61, 0);
+  border: .14rem solid rgb(0, 61, 0);
+
+}
